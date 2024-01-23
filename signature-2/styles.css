@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 8px #e5e5e5 solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 90px;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+}
+
+.row1 .column1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.row1 .column1 img {
+  border: #fff solid 8px;
+  border-radius: 15px;
+}
+
+.row1 .column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.row1 .column2 img {
+  margin-right: 10px;
+}
+
+.row1 #name {
+  font-size: 18px;
+}
+
+.row1 #job {
+  font-size: 16px;
+}
+
+.row1 .contact {
+  font-size: 14px;
+}
+
+.row1 .column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.row1 .arabic-info {
+  direction: rtl;
+}
+
+.row1 #a-name {
+  margin-top: -20px;
+}
+
+.row1 #a-job {
+  margin-top: -15px;
+}
+
+.row1 .location {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.row1 .location #address p {
+  font-size: 14px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row1 .location #location-icon {
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.row1 .social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.row2 .column {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.row2 .column button {
+  background-color: #5a5a5a;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+.row2 .column button img {
+  margin-right: 10px;
+}
